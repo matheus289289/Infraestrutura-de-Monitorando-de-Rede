@@ -122,13 +122,9 @@ Dispositivos de Rede ] ↓ Zabbix ↓ API / Script Python ↓ Telegram Bot (Chat
 
 ## 📂 Estrutura do Repositório (Em breve será disponibilizado)
 
-configs/ 
-├── pfsense_config.xml 
-└── zabbix_templates/
-diagrams/ 
-└── network_topology.png
-scripts/ 
-└── bot_telegram.py
+configs/ pfsense_config.xml /zabbix_templates/
+diagrams/ network_topology.png
+scripts/ bot_telegram.py
 
 ---
 
