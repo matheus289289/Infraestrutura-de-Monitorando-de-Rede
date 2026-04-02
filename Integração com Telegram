@@ -1,0 +1,44 @@
+# 📊 Monitoramento de Rede com Zabbix + Integração Telegram (ChatOps)
+
+## 📌 Descrição
+
+Este projeto representa a evolução de um ambiente de monitoramento de rede utilizando **Zabbix**, com integração via **Telegram Bot API**, permitindo interação em tempo real (ChatOps).
+
+A solução possibilita não apenas o envio automático de alertas, mas também a **consulta sob demanda** das informações da infraestrutura diretamente pelo Telegram, sem necessidade de acesso ao servidor.
+
+---
+
+## 🚀 Funcionalidades
+
+- 🔔 Envio automático de alertas do Zabbix para o Telegram  
+- 💬 Interação via comandos no bot (ChatOps)  
+- 📡 Consulta de status da rede em tempo real  
+- ⚠️ Listagem de alertas ativos  
+- 🌐 Monitoramento de dispositivos offline  
+- 📈 Exibição de métricas (download/upload)  
+
+---
+
+## 🤖 Comandos disponíveis
+
+| Comando     | Descrição |
+|------------|----------|
+| `/alertas` | Lista alertas ativos no ambiente |
+| `/status`  | Exibe status geral da rede |
+| `/rede`    | Mostra informações resumidas da infraestrutura |
+| `/host`    | Consulta informações de um host específico |
+
+---
+
+## 🏗️ Arquitetura
+
+```text
+[ Dispositivos de Rede ]
+        ↓
+      Zabbix
+        ↓
+     API / Script Python
+        ↓
+ Telegram Bot (ChatOps)
+        ↓
+      Usuário
