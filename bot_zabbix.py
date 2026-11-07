@@ -2,8 +2,9 @@
 import requests
 import time
 
-# ===== CONFIG =====
-TELEGRAM_TOKEN = "SEU_TOKEN"
+# ===== CONFIG ===== OBS: não deixe o token solto no código. crie um arquivo para as credenciais e de permissão 600 no arquivo.
+
+TELEGRAM_TOKEN = "SEU_TOKEN" 
 CHAT_ID = "SEU_ID"
 
 ZABBIX_URL = "http://IP_ZABBIX/zabbix/api_jsonrpc.php"
